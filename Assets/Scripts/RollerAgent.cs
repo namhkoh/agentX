@@ -54,20 +54,29 @@ public class RollerAgent : Agent
      * Taking Actions and Assigning Rewards
      * 
      */
+    public float speed = 10;
     public override void OnActionReceived(float[] action)
     {
+        //Action size = 2
         Vector3 controlSignal = Vector3.zero;
         controlSignal.x = action[0];
         controlSignal.z = action[1];
         rBody.AddForce(controlSignal * speed);
 
+        // Rewards
         float distanceToTarget = Vector3.Distance(this.transform.localPosition, TargetX.localPosition);
+
         // Reached target
         if (distanceToTarget < 1.42f)
         {
             // Assign a revard of 1.0 
             SetReward(1.0f);
             // marks the agent as finished
+            EndEpisode();
+        }
+
+        // If agent falls off platform
+        if (this.transform.localPosition.y < 0) {
             EndEpisode();
         }
     }
