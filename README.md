@@ -1,6 +1,7 @@
 # agentX
  - A.I Agent training exploration using Unity's ML agent library.
  - RL learning implementation.
+ - Final neural net `agentX.nn` can be found in the results folder.
 
 # Training Area
  - The scene is consisted of an `Agent` (sphere), `Target` (cube) and the floor plane.
@@ -37,7 +38,8 @@
 
  # Training time comparaison
  ## Single training area
- ![alt-text-1](https://github.com/namhkoh/agentX/blob/koh-dev/TensorBoard/Environment_Cumulative%20Reward.svg "title-1") 
+![Reward](https://github.com/namhkoh/agentX/blob/koh-dev/TensorBoard/culmulative.png?raw=true)
+ - Check the TensorBoard folder to view all graphs.
  ## Multiple training areas
  - Future implmentation
 
