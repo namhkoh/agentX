@@ -39,11 +39,14 @@
  ## Single training area
  - Insert training data
  ## Multiple training areas
- - insert training data
+ - Future implmentation
 
 # Training view
+## Pre-optimization
 ![Training View](https://github.com/namhkoh/agentX/blob/koh-dev/Thumbnail/thumbnail.png?raw=true)
 (https://youtu.be/d-0Xhrpbk4c)
+## Post-optimization
+https://youtu.be/wvQ8khv_BUk
 
 # Additional implementation 
  - Add complexity in the environment for greater NN model. 
