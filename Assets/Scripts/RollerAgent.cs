@@ -81,5 +81,15 @@ public class RollerAgent : Agent
         }
     }
 
+    /**
+     * Testing Environment
+     * Action corresponding to the values of the "Horizontal" and "Vertical" input axis. 
+     */
+    public override void Heuristic(float[] actionsOut)
+    {
+        actionsOut[0] = Input.GetAxis("Hortizontal");
+        actionsOut[1] = Input.GetAxis("Vertical");
+    }
+
 
 }
