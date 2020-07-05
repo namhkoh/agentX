@@ -69,7 +69,7 @@ public class RollerAgent : Agent
         // Reached target
         if (distanceToTarget < 1.42f)
         {
-            // Assign a revard of 1.0 
+            // Assign a reward of 1.0 
             SetReward(1.0f);
             // marks the agent as finished
             EndEpisode();
