@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 141916021}
   - component: {fileID: 141916020}
   - component: {fileID: 141916024}
+  - component: {fileID: 141916025}
   m_Layer: 0
   m_Name: RollerAgent
   m_TagString: Untagged
@@ -231,6 +232,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &141916025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141916019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e01c9a88ab504bee902e22f6c8a47ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+  hasUpgradedFromAgentParameters: 1
+  MaxStep: 0
 --- !u!1 &284611613
 GameObject:
   m_ObjectHideFlags: 0
