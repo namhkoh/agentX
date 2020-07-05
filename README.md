@@ -37,7 +37,7 @@
 
  # Training time comparaison
  ## Single training area
- ![alt-text-1](https://github.com/namhkoh/agentX/blob/koh-dev/TensorBoard/Environment_Cumulative%20Reward.svg "title-1") ![alt-text-2](image2.png "title-2")
+ ![alt-text-1](https://github.com/namhkoh/agentX/blob/koh-dev/TensorBoard/Environment_Cumulative%20Reward.svg "title-1") 
  ## Multiple training areas
  - Future implmentation
 
