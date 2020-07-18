@@ -72,5 +72,6 @@ https://youtu.be/wvQ8khv_BUk
 
 # Augmented Reality version
  - Experimentation with ARFoundation and ARcore to view the agent.
+ 
 ![AR](https://github.com/namhkoh/agentX/blob/feat/AR-staging-version/screenshots/AR.jpg)
 
