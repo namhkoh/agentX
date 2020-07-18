@@ -68,4 +68,7 @@ https://youtu.be/wvQ8khv_BUk
  - Add complexity in the environment for greater NN model. 
  - Train in parallel training environment to increase learning speed. 
  - Adjust the hyperparaemters to configure decision value and batch size.
- - More sophisticated 3D models and behaviours to carry out. 
+ - More sophisticated 3D models and behaviours to carry out.
+
+# NOTICE
+ - Check `feat/AR-staging-version` for augmented reality version updates. 
